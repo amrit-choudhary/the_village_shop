@@ -1,7 +1,7 @@
 #!/bin/zsh
 set -e
 
-$PWD/../client/bin/the_village_shop_client
-$PWD/../server/bin/the_village_shop_server
+$PWD/../client/bin/TheVillageShop_Client
+$PWD/../server/bin/TheVillageShop_Server
 
 echo "Test Successful!"
