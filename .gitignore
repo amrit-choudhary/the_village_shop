@@ -34,3 +34,7 @@
 # Mac
 *.DS_STORE
 
+# Builds
+/build
+/.vscode
+

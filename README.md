@@ -13,6 +13,8 @@ This is a C++ game about establishing a profitable shop in a functioning village
 ## Project
 ### Folders
 ```
+automation/            Automation and test scripts
+
 design/                Game design documents
 
 client/                Folder for client applications
