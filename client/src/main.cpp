@@ -3,6 +3,8 @@
 
 #include "TimeManagement/TimeManager.h"
 
+#include "spdlog/spdlog.h"
+
 namespace
 {
     const uint32_t runTimeSeconds = 10;
@@ -39,4 +41,7 @@ int main(int argc, char **argv)
     std::cout << "Average FPS: " << timeManager.GetFrameCount() / timeManager.GetTimeSinceStartup() << '\n';
     std::cout << "Total Frames: " << timeManager.GetFrameCount() << '\n';
     std::cout << "Game Over!" << '\n';
+    spdlog::info("Sample Info output.");
+    spdlog::warn("Sample Warn output.");
+    spdlog::error("Sample Error output.");
 }
